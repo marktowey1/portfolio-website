@@ -1,0 +1,13 @@
+.header {
+  display: flex;
+  width: 100vw;
+}
+
+.header-menu {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header-menu > h2 {
+  padding: 10px;
+}
