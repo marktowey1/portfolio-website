@@ -1,0 +1,36 @@
+.about-top {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+
+.about-info {
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+
+.about-photo {
+  width: 50%;
+}
+
+.about-photo img {
+  width: 100%;
+}
+
+.about-info > p {
+  font-size: 40px;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.socials-icon {
+  width: 70px;
+  height: 60px;
+  margin: 15px;
+  cursor: pointer;
+}

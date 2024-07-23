@@ -1,13 +1,20 @@
 .header {
   display: flex;
-  width: 100vw;
+  width: 100%;
 }
 
 .header-menu {
   display: flex;
-  justify-content: flex-end;
+  margin-left: auto;
 }
 
 .header-menu > h2 {
   padding: 10px;
+}
+
+.header-icon {
+  width: 50px;
+  height: 45px;
+  padding: 10px;
+  margin-top: 15px;
 }
