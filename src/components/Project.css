@@ -16,6 +16,10 @@
   border-top: 10px solid blue;
 }
 
+.projects-container > h1 {
+  font-size: 50px;
+}
+
 img {
   width: 100%; /* Make the image fill its container */
   height: auto; /* Maintain aspect ratio */

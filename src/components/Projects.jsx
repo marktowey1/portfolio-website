@@ -33,6 +33,7 @@ const projects = [
 export default function Projects() {
   return (
     <div className="projects-container">
+      <h1>Projects</h1>
       {projects.map((project) => (
         <Project key={project.title} {...project} />
       ))}
