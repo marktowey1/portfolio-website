@@ -21,16 +21,3 @@
 .about-info > p {
   font-size: 40px;
 }
-
-.social-links {
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-}
-
-.socials-icon {
-  width: 70px;
-  height: 60px;
-  margin: 15px;
-  cursor: pointer;
-}
