@@ -1,0 +1,12 @@
+.work-container {
+  border-top: 10px solid blue;
+}
+
+.workInfo {
+  display: flex;
+}
+
+.work-left,
+.work-right {
+  width: 50%;
+}
