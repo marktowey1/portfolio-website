@@ -1,14 +1,41 @@
 import Project from "./Project";
+import "./Project.css";
+import PortfolioWebsiteScreenshot from "../images/Portfolio-Website.png";
+import CalculatorImage from "../images/Calculator-Image.png";
+import WeatherApp from "../images/Weather-App.png";
+
+const projects = [
+  {
+    title: "Calculator App",
+    description: " A simple calculator app",
+    screenshot: CalculatorImage,
+    demoUrl: "",
+    githubUrl: "https://github.com/marktowey1/Calculator-JavaScript",
+  },
+  {
+    title: "Portfolio Website",
+    description:
+      "It is a simple Portfolio website made on ReactJS and CSS3. It contains different sections and each section contains different parts. It covers my education, experience, portfolio and many more.",
+    screenshot: PortfolioWebsiteScreenshot,
+    demoUrl: "",
+    githubUrl: "https://github.com/marktowey1/portfolio-website",
+  },
+  {
+    title: "Weather App",
+    description:
+      "Simple weather app where you can search by location to get the current temperature and weather type.",
+    screenshot: WeatherApp,
+    demoUrl: "",
+    githubUrl: "https://github.com/marktowey1/weather-app",
+  },
+];
 
 export default function Projects() {
   return (
-    <div>
-      <h1>Projects</h1>
-      <Project
-        Title="Example Title"
-        description="Description Example"
-        screenshot="screenshotexample"
-      />
+    <div className="projects-container">
+      {projects.map((project) => (
+        <Project key={project.title} {...project} />
+      ))}
     </div>
   );
 }

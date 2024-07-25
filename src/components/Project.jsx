@@ -1,3 +1,5 @@
+import "./Project.css";
+
 export default function Project({
   title,
   description,
@@ -9,6 +11,7 @@ export default function Project({
     <div className="project-card">
       <div className="project-info">
         <h2>{title}</h2>
+        <p>{description}</p>
         <div className="project-links">
           <a href={demoUrl}>
             <button>Demo</button>
@@ -16,10 +19,9 @@ export default function Project({
           <a href={githubUrl}>
             <button>Github</button>
           </a>
-          <p>{description}</p>
         </div>
       </div>
-      <img src={screenshot} />
+      <img src={screenshot} alt={`Screenshot of ${title}`} />
     </div>
   );
 }

@@ -1,0 +1,41 @@
+.project-card {
+  display: flex;
+  width: 100%;
+  margin-bottom: 20px;
+  padding-top: 15px;
+}
+
+.project-info,
+.project-card > img {
+  width: 50%;
+  flex: 1;
+  font-size: 25px;
+}
+
+.projects-container {
+  border-top: 10px solid blue;
+}
+
+img {
+  width: 100%; /* Make the image fill its container */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Remove any extra space below the image */
+}
+
+.project-links {
+  display: flex;
+  gap: 5px;
+}
+
+button {
+  color: white;
+  align-items: center;
+  background-color: #2a5c9e;
+  width: 100px;
+  height: 40px;
+  padding: 4px 8px;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-right: 6px;
+  cursor: pointer;
+}
