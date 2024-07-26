@@ -6,3 +6,14 @@
   display: flex;
   gap: 20px;
 }
+
+.skills img {
+  width: 200px;
+  height: 200px;
+}
+
+.single-skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
