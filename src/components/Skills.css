@@ -1,0 +1,8 @@
+.skills-container {
+  border-top: 10px solid blue;
+}
+
+.skills {
+  display: flex;
+  gap: 20px;
+}
