@@ -1,7 +1,7 @@
-import SocialLinks from "./SocialLinks.jsx";
+import SocialLinks from "../SocialLinks/SocialLinks.jsx";
 import "./Contact.css";
 
-import DownloadIcon from "../images/Download-Icon.png";
+import DownloadIcon from "../../images/Download-Icon.png";
 
 export default function Contact() {
   return (

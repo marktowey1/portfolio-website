@@ -6,7 +6,11 @@
   display: flex;
 }
 
-.work-left,
-.work-right {
-  width: 50%;
+.work-left {
+  width: 70%;
+}
+
+.work-container img {
+  width: 200px;
+  height: 150px;
 }

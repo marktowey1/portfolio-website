@@ -1,9 +1,9 @@
 import "./SocialLinks.css";
 
-import LinkedInIcon from "../images/Linkedin-icon.png";
-import TwitterIcon from "../images/Twitter-icon.png";
-import GithubIcon from "../images/Github-icon.png";
-import GmailIcon from "../images/Gmail-icon.png";
+import LinkedInIcon from "../../images/Linkedin-icon.png";
+import TwitterIcon from "../../images/Twitter-icon.png";
+import GithubIcon from "../../images/Github-icon.png";
+import GmailIcon from "../../images/Gmail-icon.png";
 
 export default function SocialLinks() {
   return (

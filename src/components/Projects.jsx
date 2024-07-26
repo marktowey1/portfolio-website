@@ -1,5 +1,5 @@
-import Project from "./Project";
-import "./Project.css";
+import Project from "./Project/Project.jsx";
+import "./Project/Project.css";
 import PortfolioWebsiteScreenshot from "../images/Portfolio-Website.png";
 import CalculatorImage from "../images/Calculator-Image.png";
 import WeatherApp from "../images/Weather-App.png";

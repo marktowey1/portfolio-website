@@ -1,10 +1,10 @@
 import React from "react";
 import "./Header.css";
-import ProjectsIcon from "../images/Projects-icon.png";
-import SkillsIcon from "../images/Skills-icon.png";
-import BriefcaseIcon from "../images/Briefcase-icon.jpg";
-import PersonIcon from "../images/Person-icon.jpg";
-import CircleIcon from "../images/Circle-icon.jpg";
+import ProjectsIcon from "../../images/Projects-icon.png";
+import SkillsIcon from "../../images/Skills-icon.png";
+import BriefcaseIcon from "../../images/Briefcase-icon.jpg";
+import PersonIcon from "../../images/Person-icon.jpg";
+import CircleIcon from "../../images/Circle-icon.jpg";
 
 export default function Header() {
   return (

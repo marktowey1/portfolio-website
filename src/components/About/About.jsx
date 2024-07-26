@@ -1,7 +1,7 @@
 import "./About.css";
-import SocialLinks from "./SocialLinks.jsx";
+import SocialLinks from "../SocialLinks/SocialLinks.jsx";
 
-import WebDevImage from "../images/WebDev-image.jpg";
+import WebDevImage from "../../images/WebDev-image.jpg";
 
 export default function About() {
   return (

@@ -1,5 +1,5 @@
-import GenesysLogo from "../images/Genesys-Logo.png";
-import SAPLogo from "../images/SAP-Logo.png";
+import GenesysLogo from "../../images/Genesys-Logo.png";
+import SAPLogo from "../../images/SAP-Logo.png";
 
 import "./Work.css";
 

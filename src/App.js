@@ -1,10 +1,10 @@
 import "./App.css";
-import Header from "./components/Header.jsx";
-import About from "./components/About.jsx";
+import Header from "./components/Header/Header.jsx";
+import About from "./components/About/About.jsx";
 import Projects from "./components/Projects.jsx";
-import Skills from "./components/Skills.jsx";
-import Contact from "./components/Contact.jsx";
-import Work from "./components/Work.jsx";
+import Skills from "./components/Skills/Skills.jsx";
+import Contact from "./components/Contact/Contact.jsx";
+import Work from "./components/Work/Work.jsx";
 
 function App() {
   return (

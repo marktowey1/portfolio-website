@@ -1,13 +1,13 @@
-import Skill from "./Skill.jsx";
+import Skill from "../Skill.jsx";
 import "./Skills.css";
 
-import ReactIcon from "../images/React-icon.png";
-import NextIcon from "../images/NextJS-icon.png";
-import JavascriptIcon from "../images/JavaScript-icon.png";
-import TypescriptIcon from "../images/Typescript-icon.png";
-import NodeIcon from "../images/NodeJS-icon.png";
-import ExpressIcon from "../images/Express-icon.png";
-import MongoIcon from "../images/Mongo-icon.png";
+import ReactIcon from "../../images/React-icon.png";
+import NextIcon from "../../images/NextJS-icon.png";
+import JavascriptIcon from "../../images/JavaScript-icon.png";
+import TypescriptIcon from "../../images/Typescript-icon.png";
+import NodeIcon from "../../images/NodeJS-icon.png";
+import ExpressIcon from "../../images/Express-icon.png";
+import MongoIcon from "../../images/Mongo-icon.png";
 
 export default function Skills() {
   const frontendSkills = [
