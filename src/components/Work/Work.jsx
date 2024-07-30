@@ -28,7 +28,7 @@ export default function Work() {
         <div className="workInfo" key={work.company}>
           <div className="work-left">
             <h2>{work.company}</h2>
-            <h2>{`${work.startDate} - ${work.endDate}`}</h2>
+            <h3>{`${work.startDate} - ${work.endDate}`}</h3>
             <p>{work.jobTitle}</p>
           </div>
           <img

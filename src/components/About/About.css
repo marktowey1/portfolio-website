@@ -1,7 +1,12 @@
+.About {
+  margin: 100px 0px 20px 0px;
+}
+
 .about-top {
   display: flex;
   justify-content: center;
-  gap: 100px;
+  gap: 6rem;
+  margin-bottom: 3rem;
 }
 
 .about-info {
@@ -12,12 +17,37 @@
 
 .about-photo {
   width: 50%;
+  height: auto;
 }
 
 .about-photo img {
-  width: 100%;
+  width: 80%;
+  height: auto;
 }
 
 .about-info > p {
-  font-size: 40px;
+  font-size: 1.25rem;
+}
+
+.about-info span {
+  color: #00f;
+  font-size: 1.5rem;
+}
+
+@media (max-width: 660px) {
+  .about-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+  }
+
+  .about-photo {
+    display: flex;
+    justify-content: center;
+  }
+
+  .about-info {
+    justify-content: center;
+  }
 }

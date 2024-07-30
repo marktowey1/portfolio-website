@@ -1,9 +1,12 @@
 .work-container {
-  border-top: 10px solid blue;
+  border-top: 0.5rem solid blue;
 }
 
 .workInfo {
   display: flex;
+  margin: 1rem 0;
+  padding: 1rem;
+  background-color: #f9f9f9;
 }
 
 .work-left {
@@ -11,6 +14,21 @@
 }
 
 .work-container img {
-  width: 200px;
-  height: 150px;
+  width: 20rem;
+  height: 13rem;
+}
+
+@media (max-width: 660px) {
+  .workInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+  }
+
+  .work-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }

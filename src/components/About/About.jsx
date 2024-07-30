@@ -5,11 +5,15 @@ import WebDevImage from "../../images/WebDev-image.jpg";
 
 export default function About() {
   return (
-    <div>
+    <div className="About">
       <div className="about-top">
         <div className="about-info">
           <p>
-            Hello, my name is <b>Mark Towey</b>. I am an expert at ReactJS.
+            Hello, my name is{" "}
+            <span>
+              <b>Mark Towey</b>
+            </span>
+            . <br></br> I am an expert at ReactJS.
           </p>
         </div>
         <div className="about-photo">

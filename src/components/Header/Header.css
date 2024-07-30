@@ -1,20 +1,45 @@
 .header {
   display: flex;
-  width: 100%;
+  gap: 3rem;
+  justify-content: space-between;
+  flex: 1 1;
+  position: fixed;
+  align-items: center;
+  width: 70vw;
+  background-color: #fff;
+}
+
+.header > h1 {
+  color: #4169e1;
+  font-weight: 800;
 }
 
 .header-menu {
   display: flex;
-  margin-left: auto;
+  /* margin-left: auto; */
 }
 
 .header-menu > h2 {
-  padding: 10px;
+  padding: 5px;
+  /* margin: 0; */
+  font-size: 1rem;
 }
 
 .header-icon {
-  width: 50px;
-  height: 45px;
-  padding: 10px;
-  margin-top: 15px;
+  width: 1.5rem;
+  height: 1.5rem;
+  padding: 0.3rem 1px;
+  margin-top: 1rem;
+}
+
+@media (min-width: 2300px) {
+  .header {
+    width: 50vw;
+  }
+}
+
+@media (max-width: 850px) {
+  .header {
+    width: 95vw;
+  }
 }

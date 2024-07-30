@@ -1,12 +1,12 @@
 .social-links {
   display: flex;
   justify-content: center;
-  gap: 10px;
+  gap: 0.5rem;
 }
 
 .socials-icon {
-  width: 70px;
-  height: 60px;
-  margin: 15px;
+  width: 50px;
+  height: 40px;
+  margin: 10px;
   cursor: pointer;
 }
