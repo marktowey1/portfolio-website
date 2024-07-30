@@ -11,6 +11,8 @@
   width: 70%;
 }
 .project-card > img {
+  width: 23rem;
+  height: 15rem;
   max-width: 700px;
 }
 

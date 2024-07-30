@@ -16,7 +16,7 @@
 
 .header-menu {
   display: flex;
-  /* margin-left: auto; */
+  gap: 1rem;
 }
 
 .header-menu > h2 {
@@ -25,11 +25,18 @@
   font-size: 1rem;
 }
 
+.header-menu a {
+  display: flex;
+  font-size: 1rem;
+  /* padding: 5px; */
+  cursor: pointer;
+}
+
 .header-icon {
   width: 1.5rem;
   height: 1.5rem;
   padding: 0.3rem 1px;
-  margin-top: 1rem;
+  margin-top: 1.5rem;
 }
 
 @media (min-width: 2300px) {
