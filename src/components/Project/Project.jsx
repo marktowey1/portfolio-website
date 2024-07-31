@@ -1,4 +1,6 @@
 import "./Project.css";
+import GithubIcon from "../../images/Github-icon.png";
+import DemoIcon from "../../images/Demo-icon.png";
 
 export default function Project({
   title,
@@ -14,10 +16,14 @@ export default function Project({
         <p>{description}</p>
         <div className="project-links">
           <a href={demoUrl} target="_blank" rel="noopener noreferrer">
-            <button>Demo</button>
+            <button>
+              <img className="project-links-icon" src={DemoIcon}></img>Demo
+            </button>
           </a>
           <a href={githubUrl} target="_blank">
-            <button>Github</button>
+            <button>
+              <img className="project-links-icon" src={GithubIcon}></img>Github
+            </button>
           </a>
         </div>
       </div>
