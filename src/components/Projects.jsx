@@ -25,7 +25,7 @@ const projects = [
     description:
       "Simple weather app where you can search by location to get the current temperature and weather type.",
     screenshot: WeatherApp,
-    demoUrl: "",
+    demoUrl: "https://weather-app-sepia-three-50.vercel.app/",
     githubUrl: "https://github.com/marktowey1/weather-app",
   },
 ];

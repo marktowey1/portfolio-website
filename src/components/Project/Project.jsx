@@ -13,10 +13,10 @@ export default function Project({
         <h2>{title}</h2>
         <p>{description}</p>
         <div className="project-links">
-          <a href={demoUrl}>
+          <a href={demoUrl} target="_blank" rel="noopener noreferrer">
             <button>Demo</button>
           </a>
-          <a href={githubUrl}>
+          <a href={githubUrl} target="_blank">
             <button>Github</button>
           </a>
         </div>
