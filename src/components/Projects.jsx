@@ -9,7 +9,7 @@ const projects = [
     title: "Calculator App",
     description: " A simple calculator app",
     screenshot: CalculatorImage,
-    demoUrl: "",
+    demoUrl: "https://calculator-iota-ten-35.vercel.app/",
     githubUrl: "https://github.com/marktowey1/Calculator-JavaScript",
   },
   {
