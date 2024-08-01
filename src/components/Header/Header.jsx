@@ -6,7 +6,7 @@ import BriefcaseIcon from "../../images/Briefcase-icon.jpg";
 import PersonIcon from "../../images/Person-icon.jpg";
 import CircleIcon from "../../images/Circle-icon.jpg";
 
-export default function Header() {
+export default function Header({ toggleDarkMode, dark }) {
   const smoothScroll = (e, targetId) => {
     const targetSection = document.querySelector(targetId);
     if (targetSection) {
@@ -18,7 +18,7 @@ export default function Header() {
   };
 
   return (
-    <div className="header">
+    <div className={`header ${dark ? "dark-mode" : ""}`}>
       <h1>Mark Towey</h1>
       <div className="header-menu">
         <a onClick={(e) => smoothScroll(e, ".projects-container")}>
@@ -37,7 +37,7 @@ export default function Header() {
           <img className="header-icon" src={PersonIcon}></img>
           <h2>Contact</h2>
         </a>
-        <a>
+        <a onClick={toggleDarkMode}>
           <img className="header-icon" src={CircleIcon}></img>
           <h2>Dark/Light</h2>
         </a>

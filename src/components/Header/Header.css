@@ -6,7 +6,7 @@
   position: fixed;
   align-items: center;
   width: 70vw;
-  background-color: #fff;
+  background-color: white;
 }
 
 .header > h1 {
@@ -37,6 +37,11 @@
   height: 1.5rem;
   padding: 0.3rem 1px;
   margin-top: 1.5rem;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
 }
 
 @media (min-width: 2300px) {

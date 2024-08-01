@@ -46,6 +46,11 @@ button {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
 @media (max-width: 660px) {
   .project-card {
     display: flex;

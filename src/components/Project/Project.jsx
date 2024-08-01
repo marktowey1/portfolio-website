@@ -3,6 +3,7 @@ import GithubIcon from "../../images/Github-icon.png";
 import DemoIcon from "../../images/Demo-icon.png";
 
 export default function Project({
+  dark,
   title,
   description,
   screenshot,
@@ -10,7 +11,7 @@ export default function Project({
   githubUrl,
 }) {
   return (
-    <div className="project-card">
+    <div className={`project-card ${dark ? "dark-mode" : ""}`}>
       <div className="project-info">
         <h2>{title}</h2>
         <p>{description}</p>

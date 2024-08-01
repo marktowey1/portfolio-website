@@ -30,12 +30,12 @@ const projects = [
   },
 ];
 
-export default function Projects() {
+export default function Projects({ dark }) {
   return (
     <div className="projects-container">
       <h1>Projects</h1>
       {projects.map((project) => (
-        <Project key={project.title} {...project} />
+        <Project dark={dark} key={project.title} {...project} />
       ))}
     </div>
   );

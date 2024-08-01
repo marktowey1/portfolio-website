@@ -20,12 +20,15 @@ const workExperience = [
   },
 ];
 
-export default function Work() {
+export default function Work({ dark }) {
   return (
     <div className="work-container">
       <h1>Work</h1>
       {workExperience.map((work) => (
-        <div className="workInfo" key={work.company}>
+        <div
+          className={`workInfo ${dark ? "dark-mode" : ""}`}
+          key={work.company}
+        >
           <div className="work-left">
             <h2>{work.company}</h2>
             <h3>{`${work.startDate} - ${work.endDate}`}</h3>

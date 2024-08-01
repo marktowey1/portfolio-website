@@ -18,6 +18,11 @@
   height: 13rem;
 }
 
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
 @media (max-width: 660px) {
   .workInfo {
     display: flex;
